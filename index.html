@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroBô</title>
+
+
+
+    <!-- Icon na aba -->
+    <link rel="shortcut icon" href="./img/robot-svgrepo-com.svg" type="image/x-icon">
+
+    <!-- BS Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Linkando Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+    <!-- Menu - Nav -->
+    <header class="container mt-4">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand logo-menu" href="#">AstroBô</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#evento">Projeto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#historia">História</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#robocup">Robocup</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#equipe">Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+
+    <main class="container mt-4">
+
+        <article class="row d-flex align-items-center sobreastrobo" id="projeto">
+            <section class="col-md-6">
+                <p class="lead fs-1">O futuro da guerra começa agora: <span class="bold-word">AstroBô</span>, o robô de
+                    combate que vai além das estrelas!</p>
+            </section>
+
+            <figure class="col-md-6 my-3">
+                <img src="./img/Cool robot.gif" alt="Imagem do Astrobô ocupando 50% da tela" class="img-fluid float-end"
+                    style="width: 90%" ;>
+            </figure>
+        </article>
+
+
+        <section class="row d-flex p-4 my-4 historiastrobo" id="historia">
+            <div class="row gap-5">
+                <h2 class="text-center text-purple">HISTÓRIA</h2>
+                <h3 class="text-center mb-5 text-purple">AstroBô</h3>
+
+            </div>
+            <article class="row me-3">
+                <div class="col-md-6">
+                    <p class="lead fs-4 text-hist">
+                        O AstroBô foi concebido com um propósito claro: garantir a superioridade no campo de batalha.
+                        Sua
+                        estrutura avançada com tecnologias inovadoras permite enfrentar os ataques mais intensos,
+                        adaptando-se às situações mais complexas com agilidade e precisão. Nada escapa aos sensores
+                        perspicazes do AstroBô, tornando-o uma força a ser reconhecida e temida.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <p class="lead fs-4 text-hist">Equipado com armas e tecnologias de última geração, o AstroBô é
+                        capaz de neutralizar ameaças de
+                        maneira eficiente e letal. Sua resistência inabalável e habilidades de combate impecáveis
+                        garantem
+                        uma vantagem estratégica nas batalhas mais intensas. Com ele, o futuro da guerra está sendo
+                        moldado
+                        agora, estabelecendo um novo cenário no campo de batalha.</p>
+                </div>
+            </article>
+      
+
+
+        
+          
+            <div id="carouselExampleInterval" class="carousel slide my-4" data-bs-ride="carousel">
+                <div class="carousel-container">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./img/car6.jpeg" class="d-block w-60 img-fluid"
+                            alt="Primeira imagem do carrossel que mostra o AstroBô">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000" data-bs-interval="2000">
+                        <img src="./img/car3.jpeg" class="d-block w-60 img-fluid"
+                            alt="Segunda imagem do carrossel que mostra o AstroBô">
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/car4.jpeg" class="d-block w-60 img-fluid"
+                            alt="Terceira imagem do carrossel que mostra o AstroBô">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/car7.jpeg" class="d-block w-60 img-fluid"
+                            alt="Terceira imagem do carrossel que mostra o AstroBô">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/car5.jpeg" class="d-block w-60 img-fluid"
+                            alt="Terceira imagem do carrossel que mostra o AstroBô">
+                    </div>
+                </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+        <section class="container row d-flex sobrerocobucup" id="robocup">
+            <div class="col-md-6">
+                <img src="./img/image3.jpg" class="img-fluid" alt="">
+            </div>
+
+
+
+            <div class="col-md-6 my-3">
+                <p class="lead fs-4 text-hist align-items-center">A Robocup é a competição mais antiga da FIAP.
+                    Alunos dos 1°s anos de Sistemas de Informação constroem robôs para participar de duelos, onde o
+                    principal objetivo é estourar o balão que o adversário carrega. Para isso, todas as máquinas possuem
+                    armas em seu corpo. Mas a competição também exige o funcionamento pleno do robô: após estourar o
+                    balão do oponente, ele deve recolher sua arma, só assim é considerado o vencedor.</p>
+            </div>
+        </section>
+
+        <section class="nossotime" id="equipe">
+
+            <div class="container text-center py-5">
+                <h2 class="text-purple">Nosso Time</h2>
+
+
+                <div class="row row-cols-1 row-cols-md-4 g-4 py-5">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/yasmin.jpeg" class="card-img-top" alt="Foto da integrante Yasmin Miguez">
+                            <div class="card-body">
+                                <h3 class="card-title">Yasmin Miguez</h3>
+                                <p class="text-muted">Desenvolvedora</p>
+                                <p class="card-text">Apaixonada por tecnologia, inovação e pela criação de soluções
+                                    digitais.</p>
+                            </div>
+                            <div class="d-flex justify-content-evenly">
+                                <a href="https://www.linkedin.com/in/yasmin-miguez-si/"><i
+                                        class="bi bi-linkedin"></i></a>
+                                <a href="https://www.instagram.com/yasmin.miguez/"><i class="bi bi-instagram"></i></a>
+                                <a href="malito:yasminccmiguez@gmail.com"><i class="bi bi-envelope-check-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/joao pedro.jpg" class="card-img-top" alt="Foto do integrante João Solosano">
+                            <div class="card-body">
+                                <h3 class="card-title">João Solosano</h3>
+                                <p class="text-muted">Gestor de Projetos</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+                                    architecto!</p>
+                            </div>
+                            <div class="d-flex justify-content-evenly">
+                                <i class="bi bi-linkedin"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/julianna.jpg" class="card-img-top"
+                                alt="Foto da integrante Julianna Mariano">
+                            <div class="card-body">
+                                <h3 class="card-title">Julianna Mariano</h3>
+                                <p class="text-muted">Analista de Qualidade</p>
+                                <p class="card-text">Assegura a excelência em produtos, focando na melhor experiência
+                                    para nossos clientes.</p>
+                            </div>
+                            <div class="d-flex justify-content-evenly">
+                                <i class="bi bi-linkedin"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/pietro.jpg" class="card-img-top" alt="Foto do integrante Pietro Dias">
+                            <div class="card-body">
+                                <h3 class="card-title">Pietro Affonso</h3>
+                                <p class="text-muted">Analista de Sistemas</p>
+                                <p class="card-text mb-2">Especializado em desenvolver soluções avançadas, oferecendo
+                                    expertise na criação de soluções tecnológicas. </p>
+                            </div>
+                            <div class="d-flex justify-content-evenly">
+                                <i class="bi bi-linkedin"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+
+        </section>
+
+        <!-- aaaaaaaaaaaaaaaaaaa -->
+        <section class="contato" id="contato">
+            <div class="container">
+                <div class="row">
+                    <!-- Colunas para o formulário (6 colunas) -->
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="form">
+                            <h3>Fale conosco</h3>
+                            <form id="faleconosco">
+                                <div class="radio-buttons d-flex align-items-center my-4 ">
+                                    <label>
+                                        <input type="radio" name="type-message" value="0">
+                                        Dúvida
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="type-message" value="1">
+                                        Elogio
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="type-message" value="2">
+                                        Sugestão
+                                    </label>
+                                </div>
+                                <input type="text" name="name" placeholder="Nome">
+                                <input type="email" name="email" placeholder="E-mail">
+                                <textarea name="message" placeholder="Mensagem..."></textarea>
+                                <button type="submit" class="btn">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Colunas para a imagem (6 colunas) -->
+                    <div class="col-md-6 my-3">
+                        <figure>
+                            <img src="./img/Chat bot.gif" alt="Imagem do Chat Astrobô ocupando metade da tela"
+                                class="img-fluid float-end" style="width: 90%;">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- aaaaaaaaaaaaaaaaaa -->
+
+        </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+  
+    <!-- Linkando JS do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

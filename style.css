@@ -1,0 +1,195 @@
+:root {
+    --color-light: #fff;
+    --color-purple: rgb(70, 14, 110);
+    --color-purple-menu: rgb(175, 147, 228);
+    --color-purple-bg: rgb(241, 199, 255);
+    --color-black: #000;
+}
+
+.text-purple {
+    color: var(--color-purple);
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.bi-arrow-down-circle {
+    position: relative;
+    top: 2px
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.logo-menu {
+    color: var(--color-purple);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: var(--color-purple);
+    font-weight: 600;
+
+}
+
+.nav-link:hover {
+    color: var(--color-purple);
+}
+
+nav ul li a:hover {
+    background-color: var(--color-purple-menu);
+    border-radius: 24px;
+}
+
+.bold-word {
+    font-weight: 800;
+    color: var(--color-purple);
+
+}
+
+.text-hist {
+    text-align: justify;
+}
+
+/* Robocup - Carrossel */
+.carousel {
+    border-radius: 20px;
+}
+
+.carousel-container {
+    max-width: 800px; /* Defina a largura máxima desejada */
+    margin: 0 auto; /* Centralizar o contêiner horizontalmente */
+  }
+
+
+.carousel-inner img {
+    border-radius: 20px;
+}
+
+
+
+
+/* Cards - time */
+.card-img-top {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 0;
+    padding: 20px;
+    border: none;
+}
+
+.bi {
+    font-size: 25px;
+    color: var(--color-purple)
+}
+
+.bi:hover {
+    cursor: pointer;
+    color: var(--color-black)
+}
+
+.sobreastrobo {
+    min-height: 100vh;
+}
+
+.historiastrobo {
+    min-height: 100vh;
+
+}
+
+
+
+.sobrerocobucup {
+    min-height: 100vh;
+    align-items: center;
+}
+
+/* Nosso Time */
+
+.nossotime {
+    min-height: 100vh;
+}
+
+/* Contato */
+
+.contato {
+    min-height: 100vh;
+}
+
+.contato .content {
+    flex-wrap: wrap-reverse;
+}
+
+.contato .form {
+    margin-top: 50px;
+    max-width: 450px;
+    flex: 1 1 auto;
+}
+
+.contato .form h3 {
+    color: var(--color-purple);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contato .form form>input,
+.contato .form form textarea {
+    display: block;
+    font-size: 15px;
+    background: #fefafe;
+    border-color: #e9b9e9;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(151, 127, 207, 0.2);
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+::placeholder {
+    color: #5a5a5a;
+    /* Substitua pelo código de cor desejado */
+}
+
+.contato .form form textarea {
+    resize: vertical;
+    min-height: 150px;
+    max-height: 300px;
+}
+
+.contato .form form .radio-buttons label {
+    color: var(--color-purple);
+    font-weight: 600;
+    margin-right: 6px;
+    margin-left: 10px;
+}
+
+.contato .form form button {
+    color: var(--color-light);
+    background-color: var(--color-purple);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 0;
+    margin-top: 15px;
+    width: 150px;
+}
+
+
+
